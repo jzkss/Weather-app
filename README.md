@@ -1,4 +1,5 @@
 Weather app
+[Live Demo](https://jzkss.github.io/Weather-app/)
 
 uses live API data to fetch real-time weather info using JavaScript
 fetches up to date metrics including temperature, humidity, windspeed, and sunset times
@@ -15,4 +16,4 @@ fetches up to date metrics including temperature, humidity, windspeed, and sunse
 
 ##How to use
 - Download or clone this repository to your computer
-- Open the 'weatherapp.html' file in any browser
+- Open the 'index.html' file in any browser
