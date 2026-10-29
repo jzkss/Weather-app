@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head> 
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href ="weatherapp.css" />
+	<link href="weather-icons-wind.min.css" rel = "stylesheet" type="text/css"/>
+	<link href="weather-icons.min.css" rel = "stylesheet" type="text/css"/>
+</head>
+
+<body>
+	<div id =gray >
+	<div id = card> 
+		<div id = upper>
+			
+			<p id = cityname> city name</p>
+			<div id = image> <img id=icon src = "https://openweathermap.org/payload/api/media/file/10d@2x.png"> </div>
+			<div id = box2>
+				<div id= temp>68<span><i class = "wi wi-fahrenheit"> </i></span></div>
+				<div id=description> weather description</div>
+				<div id = date> 9/23</div> 
+			</div>
+
+			<div id = lower>
+				<div id = hum><span><i class = "wi wi-humidity"> </i></span><span id=hum2>humid</span></div>
+				<div id = wspeed> <span> <i class = "wi wi-strong-wind"></i></span><span  id  =  wspeed2>WIND</span></div>
+				<div id = sunset><span><i class = "wi wi-sunset"></i></span><span  id = sunset2>sunset</span></div>
+			</div>
+		</div>
+		
+	
+	</div>
+		<input type = "text" id = searchcity> 
+	</div>
+	<script src = "weatherapp.js"></script>
+</body>

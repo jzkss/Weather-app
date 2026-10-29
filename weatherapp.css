@@ -1,0 +1,133 @@
+
+body{
+	display:flex;
+	justify-content:center; 
+	/* box-sizing:border-box; */
+	background-image:url("https://r2.chiikawawallpaper.com/wallpaper/wallpaper/4k/20250903210150_3b3ded43c00a4ef1e03bc247a437e7eb-1920.jpg");
+background-size:100%;
+}
+#cityname{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	width:100%;
+}
+#gray{
+	display:flex;
+	justify-content:center;
+	background-color:rgba(0,0,0,.5);
+	width:100%;
+	padding:1em;  
+	align-items:center;
+	flex-direction:column;
+	height:450px;
+}
+#card {
+	border-radius:50px;
+	display:flex;
+	width:300px;
+	height:370px;
+	
+	background-color:white;
+	
+	
+}
+
+#upper {
+	display:flex;
+	flex-direction:column;
+	background-color: #FEFAE0; 
+	
+	
+}
+
+#image{
+	width:295px;
+	height:166px;
+	display:flex;
+	
+	justify-content: center;
+}
+
+#box2{
+	display:flex;
+	height:60px;
+	width:300px;
+	justify-content: center;
+	align-items:center;
+}
+#temp{
+	
+	background-color:#ebf2bf;
+	display:flex;
+	justify-content: center;
+	font-weight:700;
+	font-size:50px;
+	width:25%;
+	
+	
+	
+}
+#temp span i{
+	font-size:30px;
+	
+}
+#temp span{
+	
+	width:20px;
+}
+#description{
+	
+	width:50%;
+	
+	display:flex;
+	justify-content: center;
+	
+	
+
+}
+#date{
+	height:100%;
+	width:25%;
+	background-color: #edf2c9;
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	
+	
+}
+
+#lower{
+	display:flex;
+	height:100px;
+	justify-content:space-evenly;
+	background-color: #b5bd98; 
+	color:white; 
+	
+}
+
+#hum{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow:1;
+}
+
+#wspeed{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow:1;
+}
+
+#sunset{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow:1;
+}
+
+#searchcity{
+	margin:1em; 
+}
+
